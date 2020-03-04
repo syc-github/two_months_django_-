@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/apps/apps",
+    "pages/imagetest/imagetest",
+    "pages/logs/logs",
+    "pages/zfb/zfb",
+    "pages/wx/wx",
+    "pages/duanzi/duanzi",
+    
+    "pages/picker/picker",
+    "pages/stock/stock"
+    
+    
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#f0f",
+    "navigationBarTitleText": "爸爸",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }
+    ,{
+      "pagePath": "pages/apps/apps",
+      "text": "应用"
+    },{
+      "pagePath": "pages/imagetest/imagetest",
+      "text": "图文"
+    },{
+      "pagePath": "pages/login/login",
+      "text": "登录"
+    },{
+      "pagePath": "pages/homepage/homepage",
+      "text": "个人"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

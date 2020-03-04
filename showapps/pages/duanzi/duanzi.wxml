@@ -1,0 +1,7 @@
+<!--pages/duanzi/duanzi.wxml-->
+<text>每日乐哈哈</text>
+<button bindtap="dianji">excute me</button>
+<view wx:for="{{content}}">
+<text decode="{{true}}" space="{{true}}">{{index}}{{item.content}}</text>
+</view>
+

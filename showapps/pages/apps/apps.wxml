@@ -1,0 +1,20 @@
+<!--pages/apps/apps.wxml-->
+<text>我是应用界面</text>
+<text>导入weui,1导入样式库,2import 3,c,v大法</text>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">Grid</view>
+        <view class="page__desc">九宫格</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+                <navigator url="pages/index/index" class="weui-grid" hover-class="weui-grid_active" data-index="{{index}}" bindtap="onNavigatorTap">
+                    <image class="weui-grid__icon" src="/images/1.gif" />
+                    <view class="weui-grid__label">{{item.app.name}}</view>
+                    <!-- <view class="weui-grid__label">{{item.app.}}</view> -->
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>
