@@ -64,7 +64,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/apps/templates/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/juheapp/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,15 +73,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MS SQL Server" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonproject\my_Django\juheapp\migrations" />
+      <recent name="D:\pythonproject\my_Django\juheapp" />
       <recent name="D:\pythonproject\my_Django\apps\templates\blog" />
       <recent name="D:\pythonproject\my_Django\apps\templates" />
       <recent name="D:\pythonproject\my_Django\apps\static" />
-      <recent name="D:\pythonproject\my_Django\utils" />
-      <recent name="D:\pythonproject\my_Django\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pythonproject\my_Django\apps" />
@@ -91,16 +91,7 @@
       <recent name="D:\pythonproject\my_Django\apps\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tests">
-    <configuration name="imgtext.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_Django/apps/templates/imgtext.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_Django/apps/templates/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="upfile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my_Django/apps/templates/upfile.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tests3">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" nameIsGenerated="true">
       <module name="my_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -123,6 +114,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testlog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juheapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/testlog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +150,72 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juheapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/tests2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juheapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/tests3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juheapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,38 +247,22 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in views.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="my_Django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juheapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/juheapp/views.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Django server.my_Django" />
-      <item itemvalue="JavaScript Debug.imgtext.html" />
-      <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="JavaScript Debug.upfile.html" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.tests" />
-      <item itemvalue="Python tests.pytest in views.py" />
+      <item itemvalue="Python.text" />
+      <item itemvalue="Python.tests2" />
+      <item itemvalue="Python.testlog" />
+      <item itemvalue="Python.tests3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tests3" />
+        <item itemvalue="Python.testlog" />
+        <item itemvalue="Python.tests2" />
+        <item itemvalue="Python.text" />
         <item itemvalue="Python.tests" />
-        <item itemvalue="JavaScript Debug.upfile.html" />
-        <item itemvalue="JavaScript Debug.imgtext.html" />
-        <item itemvalue="Python tests.pytest in views.py" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -208,17 +271,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:text@localhost [2]" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:text@localhost [2]" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@15ba01c5" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -263,7 +316,16 @@
       <workItem from="1583146357653" duration="8000" />
       <workItem from="1583197829090" duration="8293000" />
       <workItem from="1583206738339" duration="9247000" />
-      <workItem from="1583281402365" duration="12416000" />
+      <workItem from="1583281402365" duration="14427000" />
+      <workItem from="1583368471902" duration="5833000" />
+      <workItem from="1583405536765" duration="610000" />
+      <workItem from="1583454976128" duration="2478000" />
+      <workItem from="1583718040541" duration="7235000" />
+      <workItem from="1583725715341" duration="5728000" />
+      <workItem from="1583741086836" duration="401000" />
+      <workItem from="1583800138314" duration="14785000" />
+      <workItem from="1583828468111" duration="1000" />
+      <workItem from="1583889592954" duration="3117000" />
     </task>
     <servers />
   </component>
@@ -279,14 +341,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="367" y="0" key="#Unnamed/0.0.1536.864@0.0.1536.864" timestamp="1583207598174" />
-    <state x="282" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583207378557">
+    <state x="282" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583368550293">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="282" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1583207378557" />
+    <state x="282" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1583368550293" />
     <state x="807" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582689680842">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="807" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1582689680842" />
+    <state x="409" y="82" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583823060788">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="409" y="82" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1583823060788" />
     <state width="252" height="195" key="DatabaseViewActions_Filter" timestamp="1582685090026">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -295,26 +361,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="196" y="85" key="EnvironmentVariablesDialog/0.0.1536.864@0.0.1536.864" timestamp="1583206313032" />
-    <state x="762" y="174" key="FileChooserDialogImpl" timestamp="1582009678180">
+    <state x="762" y="174" key="FileChooserDialogImpl" timestamp="1583475320159">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="762" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1582009678180" />
-    <state width="1483" height="339" key="GridCell.Tab.0.bottom" timestamp="1583310308114">
+    <state x="762" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583475320159" />
+    <state width="1018" height="223" key="GridCell.Tab.0.bottom" timestamp="1583906614928">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="339" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583310308114" />
-    <state width="1483" height="339" key="GridCell.Tab.0.center" timestamp="1583310308114">
+    <state width="1018" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583906614928" />
+    <state width="1018" height="223" key="GridCell.Tab.0.center" timestamp="1583906614925">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="339" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583310308114" />
-    <state width="1483" height="339" key="GridCell.Tab.0.left" timestamp="1583310308113">
+    <state width="1018" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583906614925" />
+    <state width="1018" height="223" key="GridCell.Tab.0.left" timestamp="1583906614923">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="339" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583310308113" />
-    <state width="1483" height="339" key="GridCell.Tab.0.right" timestamp="1583310308114">
+    <state width="1018" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583906614923" />
+    <state width="1018" height="223" key="GridCell.Tab.0.right" timestamp="1583906614926">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1483" height="339" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583310308114" />
+    <state width="1018" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583906614926" />
     <state width="942" height="230" key="GridCell.Tab.1.bottom" timestamp="1582183620003">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -351,10 +417,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="229" height="539" key="HiddenNamespacesPopup/0.0.1536.864@0.0.1536.864" timestamp="1583204928981" />
-    <state x="152" y="0" width="1276" height="864" key="SettingsEditor" timestamp="1583205143064">
+    <state x="152" y="0" width="1276" height="864" key="SettingsEditor" timestamp="1583456751969">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="152" y="0" width="1276" height="864" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583205143064" />
+    <state x="152" y="0" width="1276" height="864" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1583456751969" />
     <state width="623" height="498" key="SwitcherDM" timestamp="1582770039496">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -373,7 +439,11 @@
     <state x="463" y="327" width="840" height="1034" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1583288351440" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_Django$tests.coverage" NAME="tests Coverage Results" MODIFIED="1583310308107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$tests.coverage" NAME="tests Coverage Results" MODIFIED="1583325017318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$text.coverage" NAME="text Coverage Results" MODIFIED="1583719505360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$tests3.coverage" NAME="tests3 Coverage Results" MODIFIED="1583893637638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$pytest_in_views_py.coverage" NAME="pytest in views.py Coverage Results" MODIFIED="1582181450958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$tests2.coverage" NAME="tests2 Coverage Results" MODIFIED="1583729165411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$testlog.coverage" NAME="testlog Coverage Results" MODIFIED="1583823065385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
   </component>
 </project>

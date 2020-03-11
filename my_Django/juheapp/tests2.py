@@ -90,6 +90,7 @@ def modify_one():
 
 from django.db.models import Value
 from django.db.models.functions import Concat
+from juheapp.models import User
 
 def concat_function():
     # Value里面的内容随便写,拼串的内容写数据库字段,不然会报错
@@ -119,12 +120,17 @@ from django.db.models.functions import Now
 
 # now_function()
 
-# def addarticle():
-#     article=Article.objects.create(title='叭叭叭',brief_content='你是我的豆豆')
-#     print(article)
+def addarticle():
+    article=User.objects.create(openid='k的',
+                                nickname='嘻嘻嘻',
+                                focus_cities='浙江',
+                                focus_constellations='金牛座',
+                                focus_stocks='嗒嗒嗒',
+                                key_name='年爸爸')
+    print(article)
 
 
-# addarticle()
+addarticle()
 
 from django.db.models import F
 from django.db.models import Q
@@ -133,4 +139,4 @@ def getfilter():
     print(users)
 
 
-get_filter()
+# get_filter()

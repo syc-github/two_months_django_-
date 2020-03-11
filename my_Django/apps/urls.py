@@ -14,5 +14,5 @@ urlpatterns=[
     path('index/', views.index),
     path('detail/<int:article_id>', views.detail2),
     path('image/', views.show_image),
-    # path('detail2/<int:article_id>', views.detail2),
+    # path('detail2/<int:article_id>', views.detail2)
 ]

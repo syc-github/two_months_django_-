@@ -1,0 +1,40 @@
+2020-03-10 14:51:06,028D:/pythonproject/my_Django/juheapp/testlog.py : logtest
+2020-03-10 14:51:06,028D:/pythonproject/my_Django/juheapp/testlog.py : logtest
+2020-03-10 15:08:20,913D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-10 15:08:20,916D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-10 15:08:21,395D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-10 15:08:21,400D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-10 15:41:46,136D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-10 15:41:46,138D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-10 15:57:27,354D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-10 15:57:27,356D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-10 15:58:06,759D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+Traceback (most recent call last):
+  File "D:\pythonproject\myDjango\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\contrib\admin\options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\contrib\admin\sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\contrib\admin\options.py", line 1638, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\contrib\admin\options.py", line 1522, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "D:\pythonproject\myDjango\lib\site-packages\django\contrib\admin\options.py", line 1565, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "D:\pythonproject\my_Django\juheapp\admin.py", line 15, in save_model
+    obj.openid=obj.nickname+str(random.randint(1.100))
+TypeError: randint() missing 1 required positional argument: 'b'
+2020-03-10 15:58:06,765D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
