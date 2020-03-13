@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # 'apps.app1.AppsConfig',
-    'juheapp.apps.JuheappConfig'
+    'juheapp.apps.JuheappConfig',
+    'django_crontab'
 ]
 
 MIDDLEWARE = [
@@ -223,3 +224,9 @@ CACHES = {
         'LOCATION': 'backend-cache'
     }
 }
+
+CRONJOBS=[
+    ('*/2 * * * *','cron.jobs.demo'),
+    ('*/2 * * * *','echo "xxxx"'),
+    ('*/3 * * * *','/bin/ls')
+]

@@ -64,7 +64,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/juheapp/migrations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,18 +76,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\pythonproject\my_Django\juheapp\migrations" />
-      <recent name="D:\pythonproject\my_Django\juheapp" />
-      <recent name="D:\pythonproject\my_Django\apps\templates\blog" />
-      <recent name="D:\pythonproject\my_Django\apps\templates" />
-      <recent name="D:\pythonproject\my_Django\apps\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\pythonproject\my_Django\apps" />
       <recent name="D:\pythonproject\my_Django" />
       <recent name="D:\pythonproject\my_Django\juheapp" />
       <recent name="D:\pythonproject\my_Django\apps\migrations" />
+      <recent name="D:\pythonproject\my_Django\apps\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonproject\my_Django" />
+      <recent name="D:\pythonproject\my_Django\juheapp\migrations" />
+      <recent name="D:\pythonproject\my_Django\juheapp" />
+      <recent name="D:\pythonproject\my_Django\apps\templates\blog" />
       <recent name="D:\pythonproject\my_Django\apps\templates" />
     </key>
   </component>
@@ -250,11 +250,11 @@
     <list>
       <item itemvalue="Django server.my_Django" />
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.testlog" />
+      <item itemvalue="Python.tests2" />
+      <item itemvalue="Python.tests3" />
       <item itemvalue="Python.tests" />
       <item itemvalue="Python.text" />
-      <item itemvalue="Python.tests2" />
-      <item itemvalue="Python.testlog" />
-      <item itemvalue="Python.tests3" />
     </list>
     <recent_temporary>
       <list>
@@ -325,7 +325,12 @@
       <workItem from="1583741086836" duration="401000" />
       <workItem from="1583800138314" duration="14785000" />
       <workItem from="1583828468111" duration="1000" />
-      <workItem from="1583889592954" duration="3117000" />
+      <workItem from="1583889592954" duration="3859000" />
+      <workItem from="1583977143695" duration="616000" />
+      <workItem from="1583993391578" duration="1000" />
+      <workItem from="1583996269961" duration="4000" />
+      <workItem from="1584000561287" duration="616000" />
+      <workItem from="1584062399663" duration="643000" />
     </task>
     <servers />
   </component>
@@ -365,22 +370,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="762" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583475320159" />
-    <state width="1018" height="223" key="GridCell.Tab.0.bottom" timestamp="1583906614928">
+    <state width="1018" height="223" key="GridCell.Tab.0.bottom" timestamp="1583917906382">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583906614928" />
-    <state width="1018" height="223" key="GridCell.Tab.0.center" timestamp="1583906614925">
+    <state width="1018" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583917906382" />
+    <state width="1018" height="223" key="GridCell.Tab.0.center" timestamp="1583917906379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583906614925" />
-    <state width="1018" height="223" key="GridCell.Tab.0.left" timestamp="1583906614923">
+    <state width="1018" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583917906379" />
+    <state width="1018" height="223" key="GridCell.Tab.0.left" timestamp="1583917906370">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583906614923" />
-    <state width="1018" height="223" key="GridCell.Tab.0.right" timestamp="1583906614926">
+    <state width="1018" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583917906370" />
+    <state width="1018" height="223" key="GridCell.Tab.0.right" timestamp="1583917906379">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583906614926" />
+    <state width="1018" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583917906379" />
     <state width="942" height="230" key="GridCell.Tab.1.bottom" timestamp="1582183620003">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
