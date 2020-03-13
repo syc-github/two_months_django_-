@@ -23,10 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'ncwn0z2^h%7b!g^la6p3d_s18@xjp_sc3ot3u#2$seco+wmrw8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = ['192.168.43.174']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,9 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # 'apps.app1.AppsConfig',
+    'apps.app1.AppsConfig',
     'juheapp.apps.JuheappConfig',
-    'django_crontab'
+    #只能在Linux上运行
+    # 'django_crontab'
 ]
 
 MIDDLEWARE = [
@@ -49,6 +50,7 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     # 'django.middleware.csrf.CsrfViewMiddleware',
+    'mymiddleware.mymiddleware.TestMiddle',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -230,3 +232,19 @@ CRONJOBS=[
     ('*/2 * * * *','echo "xxxx"'),
     ('*/3 * * * *','/bin/ls')
 ]
+
+
+# Email config
+# QQ邮箱 SMTP 服务器地址
+EMAIL_HOST = 'smtp.qq.com'
+# 端口
+# EMAIL_PORT_SSL = 465
+EMAIL_PORT = 25
+# 发送邮件的邮箱
+EMAIL_HOST_USER = '2249598769@qq.com'
+# 在邮箱中设置的客户端授权密码
+EMAIL_HOST_PASSWORD = 'aklerzjfxdyqebaa'
+# 开启TLS
+EMAIL_USE_TLS = True
+# 收件人看到的发件人
+EMAIL_FROM = '1370327514@qq.com'

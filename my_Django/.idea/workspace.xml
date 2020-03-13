@@ -76,13 +76,6 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\pythonproject\my_Django\apps" />
-      <recent name="D:\pythonproject\my_Django" />
-      <recent name="D:\pythonproject\my_Django\juheapp" />
-      <recent name="D:\pythonproject\my_Django\apps\migrations" />
-      <recent name="D:\pythonproject\my_Django\apps\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pythonproject\my_Django" />
       <recent name="D:\pythonproject\my_Django\juheapp\migrations" />
@@ -90,8 +83,15 @@
       <recent name="D:\pythonproject\my_Django\apps\templates\blog" />
       <recent name="D:\pythonproject\my_Django\apps\templates" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonproject\my_Django\email" />
+      <recent name="D:\pythonproject\my_Django\apps" />
+      <recent name="D:\pythonproject\my_Django" />
+      <recent name="D:\pythonproject\my_Django\juheapp" />
+      <recent name="D:\pythonproject\my_Django\apps\migrations" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.tests3">
+  <component name="RunManager" selected="Python.email_">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" nameIsGenerated="true">
       <module name="my_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +114,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="email_" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/email_" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email_/email_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="testlog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,28 +150,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/testlog.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_Django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juheapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,16 +253,16 @@
       <item itemvalue="Python.testlog" />
       <item itemvalue="Python.tests2" />
       <item itemvalue="Python.tests3" />
-      <item itemvalue="Python.tests" />
       <item itemvalue="Python.text" />
+      <item itemvalue="Python.email_" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.email_" />
         <item itemvalue="Python.tests3" />
         <item itemvalue="Python.testlog" />
         <item itemvalue="Python.tests2" />
         <item itemvalue="Python.text" />
-        <item itemvalue="Python.tests" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +330,7 @@
       <workItem from="1583993391578" duration="1000" />
       <workItem from="1583996269961" duration="4000" />
       <workItem from="1584000561287" duration="616000" />
-      <workItem from="1584062399663" duration="643000" />
+      <workItem from="1584062399663" duration="6878000" />
     </task>
     <servers />
   </component>
@@ -370,22 +370,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="762" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583475320159" />
-    <state width="1018" height="223" key="GridCell.Tab.0.bottom" timestamp="1583917906382">
+    <state width="1020" height="248" key="GridCell.Tab.0.bottom" timestamp="1584085371689">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1583917906382" />
-    <state width="1018" height="223" key="GridCell.Tab.0.center" timestamp="1583917906379">
+    <state width="1020" height="248" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
+    <state width="1020" height="248" key="GridCell.Tab.0.center" timestamp="1584085371689">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1583917906379" />
-    <state width="1018" height="223" key="GridCell.Tab.0.left" timestamp="1583917906370">
+    <state width="1020" height="248" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
+    <state width="1020" height="248" key="GridCell.Tab.0.left" timestamp="1584085371689">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1583917906370" />
-    <state width="1018" height="223" key="GridCell.Tab.0.right" timestamp="1583917906379">
+    <state width="1020" height="248" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
+    <state width="1020" height="248" key="GridCell.Tab.0.right" timestamp="1584085371689">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1018" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1583917906379" />
+    <state width="1020" height="248" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
     <state width="942" height="230" key="GridCell.Tab.1.bottom" timestamp="1582183620003">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -448,6 +448,7 @@
     <SUITE FILE_PATH="coverage/my_Django$text.coverage" NAME="text Coverage Results" MODIFIED="1583719505360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$tests3.coverage" NAME="tests3 Coverage Results" MODIFIED="1583893637638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$pytest_in_views_py.coverage" NAME="pytest in views.py Coverage Results" MODIFIED="1582181450958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$email_.coverage" NAME="email_ Coverage Results" MODIFIED="1584085371676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email_" />
     <SUITE FILE_PATH="coverage/my_Django$tests2.coverage" NAME="tests2 Coverage Results" MODIFIED="1583729165411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$testlog.coverage" NAME="testlog Coverage Results" MODIFIED="1583823065385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
   </component>

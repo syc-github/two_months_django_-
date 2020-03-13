@@ -38,3 +38,19 @@ Traceback (most recent call last):
     obj.openid=obj.nickname+str(random.randint(1.100))
 TypeError: randint() missing 1 required positional argument: 'b'
 2020-03-10 15:58:06,765D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:47:03,619D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:47:03,622D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:47:04,034D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:47:04,035D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:47:20,120D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:47:20,121D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:47:23,204D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:47:23,205D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:47:27,349D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:47:27,350D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:48:14,558D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:48:14,559D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:48:21,464D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:48:21,465D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
+2020-03-13 14:48:24,057D:\pythonproject\myDjango\lib\site-packages\django\utils\log.py : log_response
+2020-03-13 14:48:24,058D:\pythonproject\myDjango\lib\site-packages\django\core\servers\basehttp.py : log_message
