@@ -18,23 +18,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="text@localhost [2]" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="text@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="text@localhost [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="text: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -84,14 +68,14 @@
       <recent name="D:\pythonproject\my_Django\apps\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonproject\my_Django\ops" />
+      <recent name="D:\pythonproject\my_Django" />
       <recent name="D:\pythonproject\my_Django\email" />
       <recent name="D:\pythonproject\my_Django\apps" />
-      <recent name="D:\pythonproject\my_Django" />
       <recent name="D:\pythonproject\my_Django\juheapp" />
-      <recent name="D:\pythonproject\my_Django\apps\migrations" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.email_">
+  <component name="RunManager" selected="Python.jobs">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" nameIsGenerated="true">
       <module name="my_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +112,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/email_/email_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jobs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my_Django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ops/jobs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,28 +208,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="my_Django" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/juheapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/juheapp/text.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="my_Django" type="Python.DjangoServer" factoryName="Django server">
       <module name="my_Django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,16 +237,16 @@
       <item itemvalue="Python.testlog" />
       <item itemvalue="Python.tests2" />
       <item itemvalue="Python.tests3" />
-      <item itemvalue="Python.text" />
       <item itemvalue="Python.email_" />
+      <item itemvalue="Python.jobs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jobs" />
         <item itemvalue="Python.email_" />
         <item itemvalue="Python.tests3" />
         <item itemvalue="Python.testlog" />
         <item itemvalue="Python.tests2" />
-        <item itemvalue="Python.text" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +314,10 @@
       <workItem from="1583993391578" duration="1000" />
       <workItem from="1583996269961" duration="4000" />
       <workItem from="1584000561287" duration="616000" />
-      <workItem from="1584062399663" duration="6878000" />
+      <workItem from="1584062399663" duration="8738000" />
+      <workItem from="1584324688207" duration="7860000" />
+      <workItem from="1584342934614" duration="3184000" />
+      <workItem from="1584346729705" duration="2141000" />
     </task>
     <servers />
   </component>
@@ -338,6 +325,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="17" key="#Log_Highlighting_(ideolog)" timestamp="1584347814596">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="17" key="#Log_Highlighting_(ideolog)/0.0.1536.864@0.0.1536.864" timestamp="1584347814596" />
     <state x="71" y="17" key="#Notifications" timestamp="1583206986731">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -370,38 +361,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="762" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1583475320159" />
-    <state width="1020" height="248" key="GridCell.Tab.0.bottom" timestamp="1584085371689">
+    <state width="1483" height="380" key="GridCell.Tab.0.bottom" timestamp="1584348826296">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="248" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
-    <state width="1020" height="248" key="GridCell.Tab.0.center" timestamp="1584085371689">
+    <state width="1483" height="380" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584348826296" />
+    <state width="1483" height="380" key="GridCell.Tab.0.center" timestamp="1584348826296">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="248" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
-    <state width="1020" height="248" key="GridCell.Tab.0.left" timestamp="1584085371689">
+    <state width="1483" height="380" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584348826296" />
+    <state width="1483" height="380" key="GridCell.Tab.0.left" timestamp="1584348826296">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="248" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
-    <state width="1020" height="248" key="GridCell.Tab.0.right" timestamp="1584085371689">
+    <state width="1483" height="380" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584348826296" />
+    <state width="1483" height="380" key="GridCell.Tab.0.right" timestamp="1584348826296">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1020" height="248" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584085371689" />
-    <state width="942" height="230" key="GridCell.Tab.1.bottom" timestamp="1582183620003">
+    <state width="1483" height="380" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584348826296" />
+    <state width="845" height="226" key="GridCell.Tab.1.bottom" timestamp="1584341767389">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="942" height="230" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1582183620003" />
-    <state width="942" height="230" key="GridCell.Tab.1.center" timestamp="1582183620003">
+    <state width="845" height="226" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584341767389" />
+    <state width="845" height="226" key="GridCell.Tab.1.center" timestamp="1584341767389">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="942" height="230" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1582183620003" />
-    <state width="942" height="230" key="GridCell.Tab.1.left" timestamp="1582183620003">
+    <state width="845" height="226" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1584341767389" />
+    <state width="845" height="226" key="GridCell.Tab.1.left" timestamp="1584341767389">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="942" height="230" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1582183620003" />
-    <state width="942" height="230" key="GridCell.Tab.1.right" timestamp="1582183620003">
+    <state width="845" height="226" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1584341767389" />
+    <state width="845" height="226" key="GridCell.Tab.1.right" timestamp="1584341767389">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="942" height="230" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1582183620003" />
+    <state width="845" height="226" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1584341767389" />
     <state width="942" height="230" key="GridCell.Tab.2.bottom" timestamp="1582183620003">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -438,18 +429,19 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="526" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1582689552710" />
-    <state x="463" y="327" width="840" height="1034" key="search.everywhere.popup" timestamp="1583288351440">
+    <state x="463" y="327" width="840" height="1034" key="search.everywhere.popup" timestamp="1584324797478">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="463" y="327" width="840" height="1034" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1583288351440" />
+    <state x="463" y="327" width="840" height="1034" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1584324797478" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_Django$tests.coverage" NAME="tests Coverage Results" MODIFIED="1583325017318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$text.coverage" NAME="text Coverage Results" MODIFIED="1583719505360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$tests3.coverage" NAME="tests3 Coverage Results" MODIFIED="1583893637638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$pytest_in_views_py.coverage" NAME="pytest in views.py Coverage Results" MODIFIED="1582181450958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
-    <SUITE FILE_PATH="coverage/my_Django$email_.coverage" NAME="email_ Coverage Results" MODIFIED="1584085371676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email_" />
+    <SUITE FILE_PATH="coverage/my_Django$email_.coverage" NAME="email_ Coverage Results" MODIFIED="1584086598863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email_" />
     <SUITE FILE_PATH="coverage/my_Django$tests2.coverage" NAME="tests2 Coverage Results" MODIFIED="1583729165411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
     <SUITE FILE_PATH="coverage/my_Django$testlog.coverage" NAME="testlog Coverage Results" MODIFIED="1583823065385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$jobs.coverage" NAME="jobs Coverage Results" MODIFIED="1584348826288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ops" />
   </component>
 </project>

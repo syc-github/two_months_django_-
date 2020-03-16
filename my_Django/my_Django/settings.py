@@ -51,6 +51,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     # 'django.middleware.csrf.CsrfViewMiddleware',
     'mymiddleware.mymiddleware.TestMiddle',
+    'mymiddleware.mymiddleware.StatisticsMiddle',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -167,8 +168,11 @@ LOGGING = {
         'myformat': {
             'format': '%(asctime)s'
                       '%(pathname)s : %(funcName)s'
-        }
-    },
+        },
+        'statistics': {
+            'format': '%(message)s'
+            }
+        },
     # 过滤器
     'filters': {
         'xxx': {
@@ -194,14 +198,29 @@ LOGGING = {
             'formatter': 'myformat',
             'encoding': 'utf-8'
         },
+        'statistics_handler': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler',
+            # todo 可能需要修改
+            'filename': os.path.join(BASE_DIR, 'ops/statistics.log'),
+            'maxBytes': 100 * 1024 * 1024,
+            'backupCount': 10,
+            'formatter': 'statistics',
+            'encoding': 'utf-8'
+        },
 
     },
     'loggers': {
         'django': {
             'handlers': ['console_handler','file_handler'],
-            'filters': ['xxx'],
+            # 'filters': ['xxx'],
             'level': 'DEBUG'
-        }
+        },
+        'statistics': {
+            'handlers': ['statistics_handler'],
+            'level': 'DEBUG'
+        },
+
     }
 }
 
@@ -229,8 +248,9 @@ CACHES = {
 
 CRONJOBS=[
     ('*/2 * * * *','cron.jobs.demo'),
-    ('*/2 * * * *','echo "xxxx"'),
-    ('*/3 * * * *','/bin/ls')
+    # ('*/2 * * * *','echo "xxxx"'),
+    # ('*/3 * * * *','/bin/ls')
+    ('*/5 * * * *','ops.jobs.send_email')
 ]
 
 
@@ -241,9 +261,10 @@ EMAIL_HOST = 'smtp.qq.com'
 # EMAIL_PORT_SSL = 465
 EMAIL_PORT = 25
 # 发送邮件的邮箱
-EMAIL_HOST_USER = '2249598769@qq.com'
+EMAIL_HOST_USER = '1370327514@qq.com'
 # 在邮箱中设置的客户端授权密码
-EMAIL_HOST_PASSWORD = 'aklerzjfxdyqebaa'
+# EMAIL_HOST_PASSWORD = 'aklerzjfxdyqebaa'
+EMAIL_HOST_PASSWORD = 'mzekgjbznbytiigd'
 # 开启TLS
 EMAIL_USE_TLS = True
 # 收件人看到的发件人
