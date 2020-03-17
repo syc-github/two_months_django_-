@@ -10,7 +10,7 @@ class TestMiddle():
     def __call__(self, request):
         response=self.get_response(request)
         return response
-        print('before call...',response)
+        # print('before call...',response)
 
 
 class StatisticsMiddle():

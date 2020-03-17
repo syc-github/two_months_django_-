@@ -21,12 +21,13 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="text@localhost [2]" uuid="24e3efec-b622-4cf6-892b-d0dbb095616e">
+    <data-source source="LOCAL" name="text" uuid="4a767acb-5fb0-44e7-9beb-a5fccea648e5">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <configured-by-url>true</configured-by-url>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/my_Django/settings.py</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/text</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/text</jdbc-url>
     </data-source>
   </component>
 </project>
