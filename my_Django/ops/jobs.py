@@ -5,7 +5,7 @@ import smtplib
 from my_Django import settings
 from email.mime.text import MIMEText
 logger=logging.getLogger('django')
-log_file= 'ops\statistics.log'
+log_file= 'ops/statistics.log'
 
 
 def analyse_log():

@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'apps.app1.AppsConfig',
     'juheapp.apps.JuheappConfig',
     #只能在Linux上运行
-    # 'django_crontab'
+    'django_crontab'
 ]
 
 MIDDLEWARE = [
@@ -151,7 +151,7 @@ STATIC_URL = '/static/'
 
 # STATIC_ROOT_SELF=os.path.join(BASE_DIR,'static')
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 STATICFILES_DIRS = (
      os.path.join(BASE_DIR, 'static').replace('\\', '/'),
 )

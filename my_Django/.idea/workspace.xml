@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d48cc4b2-10e2-4fbe-842c-f34a52995d28" name="Default Changelist" comment="" />
+    <list default="true" id="d48cc4b2-10e2-4fbe-842c-f34a52995d28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/24e3efec-b622-4cf6-892b-d0dbb095616e.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/24e3efec-b622-4cf6-892b-d0dbb095616e/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9bfc5816-9d9f-43af-ae1d-a0b8bb69db73.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_Django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_Django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/juheapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/juheapp/migrations/0002_auto_20200310_1606.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_Django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_Django/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mymiddleware/mymiddleware.py" beforeDir="false" afterPath="$PROJECT_DIR$/mymiddleware/mymiddleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ops/jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/ops/jobs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ops/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/ops/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ops/statistics.log" beforeDir="false" afterPath="$PROJECT_DIR$/ops/statistics.log" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +39,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="text" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="text" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="text" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="text: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -35,7 +72,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XyDmKqYPDHQx7xW2pzDqH2FQwO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,9 +84,11 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="sqlite&#10;sqlserver&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -74,6 +117,18 @@
       <recent name="D:\pythonproject\my_Django\apps" />
       <recent name="D:\pythonproject\my_Django\juheapp" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Python.jobs">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" nameIsGenerated="true">
@@ -250,18 +305,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -318,11 +361,26 @@
       <workItem from="1584324688207" duration="7860000" />
       <workItem from="1584342934614" duration="3184000" />
       <workItem from="1584346729705" duration="2141000" />
+      <workItem from="1584351050816" duration="1234000" />
+      <workItem from="1584407039960" duration="2759000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="17" key="#Log_Highlighting_(ideolog)" timestamp="1584347814596">
@@ -435,13 +493,13 @@
     <state x="463" y="327" width="840" height="1034" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1584324797478" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/my_Django$tests.coverage" NAME="tests Coverage Results" MODIFIED="1583325017318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
-    <SUITE FILE_PATH="coverage/my_Django$text.coverage" NAME="text Coverage Results" MODIFIED="1583719505360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
-    <SUITE FILE_PATH="coverage/my_Django$tests3.coverage" NAME="tests3 Coverage Results" MODIFIED="1583893637638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
-    <SUITE FILE_PATH="coverage/my_Django$pytest_in_views_py.coverage" NAME="pytest in views.py Coverage Results" MODIFIED="1582181450958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
-    <SUITE FILE_PATH="coverage/my_Django$email_.coverage" NAME="email_ Coverage Results" MODIFIED="1584086598863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email_" />
+    <SUITE FILE_PATH="coverage/my_Django$jobs.coverage" NAME="jobs Coverage Results" MODIFIED="1584409765634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ops" />
     <SUITE FILE_PATH="coverage/my_Django$tests2.coverage" NAME="tests2 Coverage Results" MODIFIED="1583729165411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$email_.coverage" NAME="email_ Coverage Results" MODIFIED="1584086598863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/email_" />
     <SUITE FILE_PATH="coverage/my_Django$testlog.coverage" NAME="testlog Coverage Results" MODIFIED="1583823065385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
-    <SUITE FILE_PATH="coverage/my_Django$jobs.coverage" NAME="jobs Coverage Results" MODIFIED="1584348826288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ops" />
+    <SUITE FILE_PATH="coverage/my_Django$text.coverage" NAME="text Coverage Results" MODIFIED="1583719505360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$pytest_in_views_py.coverage" NAME="pytest in views.py Coverage Results" MODIFIED="1582181450958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$tests.coverage" NAME="tests Coverage Results" MODIFIED="1583325017318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
+    <SUITE FILE_PATH="coverage/my_Django$tests3.coverage" NAME="tests3 Coverage Results" MODIFIED="1583893637638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/juheapp" />
   </component>
 </project>
