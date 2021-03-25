@@ -7,7 +7,7 @@ mysqlclient-deps==0.0.2
 psycopg2==2.8.4
 PyMySQL==0.9.3
 pytz==2019.3
-PyYAML==5.3
+PyYAML==5.4
 requests==2.22.0
 sqlparse==0.3.0
 urllib3==1.25.8
